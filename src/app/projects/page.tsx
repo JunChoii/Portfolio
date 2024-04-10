@@ -1,7 +1,23 @@
+"use client";
+import React, { useState, useEffect } from "react";
 import Navbar from "./../Navbar";
 import Image from "next/image";
 
 export default function Projects() {
+  const [showNavbar, setShowNavbar] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      setShowNavbar(scrollTop <= 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <main className="min-h-screen flex flex-col items-center justify-between p-4 md:p-24 bg-slate-600 ">
       <div className="top flex flex-wrap justify-center">
@@ -57,10 +73,7 @@ export default function Projects() {
           />{" "}
         </div>
       </div>
-      <div
-        className="bottom md:opacity-5 md:hover:opacity-100"
-        style={{ transition: "opacity 2s" }}
-      >
+      <div className={`bottom ${showNavbar ? 'opacity-100' : 'opacity-0'}`} style={{ transition: "opacity 2s" }}>
         <Navbar />
       </div>
     </main>
