@@ -15,7 +15,7 @@ export default function Home() {
       </video>
       <div className="relative z-10">
         <div className="top flex flex-col md:flex-row items-center justify-center md:justify-start">
-          <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden mb-4 md:mr-10 md:mb-0">
+          <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden mb-4 md:mr-10 md:mb-0 shadow shadow-white">
             <Image
               src="/HeadShot.jpg"
               alt=""
@@ -37,6 +37,13 @@ export default function Home() {
               Let&apos;s get it!
             </h1>
           </div>
+        </div>
+        <div className="flex justify-center mt-7">
+          <a href="/">
+            <div className="bg-slate-500 w-80 h-10 rounded-lg text-white flex items-center justify-center shadow shadow-white hover:bg-slate-600">
+              Your feedback is appreciated!
+            </div>
+          </a>
         </div>
         <div className="bottom">
           <Navbar />
