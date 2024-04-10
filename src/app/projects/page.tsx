@@ -57,7 +57,10 @@ export default function Projects() {
           />{" "}
         </div>
       </div>
-      <div className="bottom">
+      <div
+        className="bottom md:opacity-5 md:hover:opacity-100"
+        style={{ transition: "opacity 2s" }}
+      >
         <Navbar />
       </div>
     </main>
