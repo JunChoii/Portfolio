@@ -5,14 +5,15 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-between p-4 md:p-24 bg-slate-600">
       <div className="top flex flex-col md:flex-row items-center justify-center md:justify-start">
-        <Image
-          src="/kong.jpg"
-          alt=""
-          width="300"
-          height="300"
-          layout=""
-          className="object-cover rounded-full mb-4 md:mr-10 md:mb-0"
-        />
+        <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden mb-4 md:mr-10 md:mb-0">
+          <Image
+            src="/HeadShot.jpg"
+            alt=""
+            layout="fill"
+            objectFit="cover"
+            className="rounded-full"
+          />
+        </div>
         <div className="me-content flex flex-col items-center">
           <h1 className="text-6xl font-bold text-white mb-2 md:mb-0">
             Hello World!
@@ -25,7 +26,7 @@ export default function Home() {
           </h1>
           <hr className="w-full border-1 border-white my-4 md:my-0" />
           <h1 className="text-4xl font-bold text-slate-300 mt-1">
-             Let&apos;s get it!
+            Let&apos;s get it!
           </h1>
         </div>
       </div>
