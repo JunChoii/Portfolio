@@ -25,7 +25,7 @@ export default function Home() {
           </h1>
           <hr className="w-full border-1 border-white my-4 md:my-0" />
           <h1 className="text-4xl font-bold text-slate-300 mt-1">
-            Lets get it!
+             Let&apos;s get it!
           </h1>
         </div>
       </div>
