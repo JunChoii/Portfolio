@@ -15,10 +15,10 @@ export default function Home() {
           />
         </div>
         <div className="me-content flex flex-col items-center">
-          <h1 className="text-6xl font-bold text-white mb-2 md:mb-0">
+          <h1 className="md:text-6xl sm:text-sm font-bold text-white mb-2 md:mb-0">
             Hello World!
           </h1>
-          <h1 className="text-3xl font-bold text-slate-400 mt-10 md:ml-4">
+          <h1 className="sm:text-xl text-3xl font-bold text-slate-400  mt-10 md:ml-4">
             Full Stack Developer
           </h1>
           <h1 className="text-6xl font-bold text-white mt-3 md:mt-0">
