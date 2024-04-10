@@ -29,7 +29,7 @@ export default function AboutMe() {
           serving as intuitive assistants for users across various aspects of
           their lives – be it work, academia, or beyond.<br /><br />
           Eager to embark on new challenges and contribute my expertise to
-          dynamic projects, I'm open to exciting opportunities in the field of
+          dynamic projects, I am open to exciting opportunities in the field of
           programming and beyond.
         </h1>
         
