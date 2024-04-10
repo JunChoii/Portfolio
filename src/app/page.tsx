@@ -8,6 +8,7 @@ export default function Home() {
         autoPlay
         loop
         muted
+        preload="auto"
         className="fixed top-0 left-0 min-w-full min-h-full object-cover z-0"
       >
         <source src="/nightsky.mp4" type="video/mp4" />
@@ -24,9 +25,7 @@ export default function Home() {
             />
           </div>
           <div className="me-content flex flex-col items-center">
-            <h1 className="md:text-6xl font-bold text-white">
-              Hello World!
-            </h1>
+            <h1 className="md:text-6xl font-bold text-white">Hello World!</h1>
             <h1 className="sm:text-xl md:text-3xl font-bold text-slate-400 sm:mt-3 mt-10 md:ml-4">
               Full Stack Developer
             </h1>
