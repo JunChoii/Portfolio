@@ -1,7 +1,23 @@
+"use client";
 import Image from "next/image";
 import Navbar from "./../Navbar";
+import { useState, useEffect } from "react";
 
 export default function AboutMe() {
+  const [showNavbar, setShowNavbar] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop =
+        window.pageYOffset || document.documentElement.scrollTop;
+      setShowNavbar(scrollTop <= 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <main
       className="min-h-screen flex flex-col items-center justify-between p-4 md:p-24 bg-slate-600"
@@ -38,7 +54,11 @@ export default function AboutMe() {
           programming and beyond.
         </h1>
       </div>
-      <div className="bottom">
+      <div
+        className={`bottom ${showNavbar ? "opacity-100" : "opacity-0"}`}
+        style={{ transition: "opacity 1s" }}
+      >
+        {" "}
         <Navbar />
       </div>
     </main>
