@@ -21,7 +21,8 @@ export default function Home() {
             Full Stack Developer
           </h1>
           <h1 className="text-6xl font-bold text-white mt-3 md:mt-0">
-            Jun Choi&apos;
+          // @ts-ignore
+            Jun Choi
           </h1>
           <hr className="w-full border-1 border-white my-4 md:my-0" />
           <h1 className="text-4xl font-bold text-slate-300 mt-1">
