@@ -73,7 +73,7 @@ export default function Projects() {
           />{" "}
         </div>
       </div>
-      <div className={`bottom ${showNavbar ? 'opacity-100' : 'opacity-0'}`} style={{ transition: "opacity 2s" }}>
+      <div className={`bottom ${showNavbar ? 'opacity-100' : 'opacity-0'}`} style={{ transition: "opacity 1s" }}>
         <Navbar />
       </div>
     </main>
