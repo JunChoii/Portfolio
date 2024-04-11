@@ -17,7 +17,7 @@ export default function Home() {
         <div className="top flex flex-col md:flex-row items-center justify-center md:justify-start">
           <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden mb-4 md:mr-10 md:mb-0 shadow shadow-white">
             <Image
-              src="/HeadShot.jpg"
+              src="/avatar.png"
               alt=""
               layout="fill"
               objectFit="cover"
@@ -43,6 +43,28 @@ export default function Home() {
             <div className="bg-slate-500 w-80 h-10 rounded-lg text-white flex items-center justify-center shadow shadow-white hover:bg-slate-600">
               Your feedback is appreciated!
             </div>
+          </a>
+        </div>
+        <div className="flex items-center flex-grow justify-evenly p-10">
+          <a href="http://www.linkedin.com/in/junchoiwebdev">
+            <Image
+              src="/linkedin.png"
+              alt=""
+              width="50"
+              height="50"
+              layout=""
+              className="rounded-full bg-white"
+            />
+          </a>
+          <a href="https://github.com/JunChoii">
+            <Image
+              src="/github.png"
+              alt=""
+              width="50"
+              height="50"
+              layout=""
+              className="rounded-full bg-white"
+            />{" "}
           </a>
         </div>
         <div className="bottom">
