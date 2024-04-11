@@ -38,7 +38,18 @@ export default function Navbar() {
           />{" "}
           <p className="mt-2 text-xs flex justify-center">Projects</p>
         </Link>
-        <Link href="/contact" className="">
+        <Link href="/resume" className="">
+          <Image
+            src="/resume.png"
+            alt=""
+            width="70"
+            height="50"
+            layout=""
+            className="object-cover rounded-lg p-3 bg-neutral-300"
+          />{" "}
+          <p className="mt-2 text-xs flex justify-center">Resume</p>
+        </Link>
+        {/* <Link href="/contact" className="">
           <Image
             src="/phone.png"
             alt=""
@@ -48,7 +59,7 @@ export default function Navbar() {
             className="object-cover rounded-lg p-3 bg-neutral-300"
           />{" "}
           <p className="mt-2 text-xs flex justify-center">Contact</p>
-        </Link>
+        </Link> */}
       </div>
     </nav>
   );

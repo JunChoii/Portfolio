@@ -39,14 +39,18 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-center mt-7">
-          <a href="/">
+          <a
+          href="/"
+          // TODO: Add feedback site
+          // target="_blank"
+          >
             <div className="bg-slate-500 w-80 h-10 rounded-lg text-white flex items-center justify-center shadow shadow-white hover:bg-slate-600">
               Your feedback is appreciated!
             </div>
           </a>
         </div>
         <div className="flex items-center flex-grow justify-evenly p-10">
-          <a href="http://www.linkedin.com/in/junchoiwebdev">
+          <a href="http://www.linkedin.com/in/junchoiwebdev" target="_blank">
             <Image
               src="/linkedin.png"
               alt=""
@@ -56,7 +60,7 @@ export default function Home() {
               className="rounded-full bg-white"
             />
           </a>
-          <a href="https://github.com/JunChoii">
+          <a href="https://github.com/JunChoii " target="_blank">
             <Image
               src="/github.png"
               alt=""
