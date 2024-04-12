@@ -8,10 +8,10 @@ export default function Home() {
         autoPlay
         loop
         muted
-        preload="auto"
+        playsInline
         className="fixed top-0 left-0 min-w-full min-h-full object-cover z-0"
       >
-        <source src="/nightsky.mp4" type="video/mp4" />
+        <source src="/bubble.mp4" type="video/mp4" />
       </video>
       <div className="relative z-10">
         <div className="top flex flex-col md:flex-row items-center justify-center md:justify-start">
@@ -33,14 +33,13 @@ export default function Home() {
               Full Stack Developer
             </h1>
             {/* <hr className="w-full border-1 border-white my-4 md:my-0" /> */}
-            
           </div>
         </div>
         <div className="flex justify-center mt-7">
           <a
-          href="/"
-          // TODO: Add feedback site
-          // target="_blank"
+            href="/"
+            // TODO: Add feedback site
+            // target="_blank"
           >
             <div className="bg-slate-500 w-80 h-10 rounded-lg text-white flex items-center justify-center shadow shadow-white hover:bg-slate-600">
               Your feedback is appreciated!
