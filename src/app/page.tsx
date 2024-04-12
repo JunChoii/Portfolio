@@ -47,7 +47,7 @@ export default function Home() {
             </div>
           </a>
         </div>
-        <div className="flex items-center flex-grow justify-evenly p-10">
+        {/* <div className="flex items-center flex-grow justify-evenly p-10">
           <a href="http://www.linkedin.com/in/junchoiwebdev" target="_blank">
             <Image
               src="/linkedin.png"
@@ -68,7 +68,7 @@ export default function Home() {
               className="rounded-full bg-white"
             />{" "}
           </a>
-        </div>
+        </div> */}
         <div className="bottom">
           <Navbar />
         </div>
