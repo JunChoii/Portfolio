@@ -25,17 +25,15 @@ export default function Home() {
             />
           </div>
           <div className="me-content flex flex-col items-center">
-            <h1 className="md:text-6xl font-bold text-white">Hello World!</h1>
-            <h1 className="sm:text-xl md:text-3xl font-bold text-slate-400 sm:mt-3 mt-10 md:ml-4">
-              Full Stack Developer
-            </h1>
-            <h1 className="text-6xl font-bold text-white mt-3 md:mt-0">
+            <h1 className="text-6xl font-bold text-white mt-10 md:mt-0">
               Jun Choi
             </h1>
-            <hr className="w-full border-1 border-white my-4 md:my-0" />
-            <h1 className="text-4xl font-bold text-slate-300 mt-1">
-              Let&apos;s get it!
+            <br />
+            <h1 className="sm:text-xl md:text-3xl font-semibold text-slate-400 sm:mt-3 mt-10 md:ml-4">
+              Full Stack Developer
             </h1>
+            {/* <hr className="w-full border-1 border-white my-4 md:my-0" /> */}
+            
           </div>
         </div>
         <div className="flex justify-center mt-7">

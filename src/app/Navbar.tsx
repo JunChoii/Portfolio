@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="fixed bottom-0 left-0 right-0 mx-auto w-full md:w-3/4 lg:w-3/4 xl:w-3/4 rounded-2xl mb-5 p-4 bg-slate-800 text-white flex justify-between ">
+    <nav className="fixed bottom-0 left-0 right-0 mx-auto w-full md:w-3/4 lg:w-3/4 xl:w-3/4 rounded-2xl mb-5 p-4 bg-slate-800 text-white flex justify-between border border-slate-500">
       <div className="flex items-center flex-grow justify-evenly">
         <a href="/" className="">
           <Image
@@ -12,7 +12,7 @@ export default function Navbar() {
             width="70"
             height="50"
             layout=""
-            className="object-cover rounded-lg p-3 bg-neutral-300"
+            className="object-cover rounded-lg p-3 bg-neutral-300 hover:bg-neutral-100 border border-slate-900"
           />
           <p className="mt-2 text-xs flex justify-center">Home</p>
         </a>
@@ -23,7 +23,7 @@ export default function Navbar() {
             width="70"
             height="50"
             layout=""
-            className="object-cover rounded-lg p-3 bg-neutral-300"
+            className="object-cover rounded-lg p-3 bg-neutral-300 hover:bg-neutral-100 border border-slate-500"
           />{" "}
           <p className="mt-2 text-xs flex justify-center">About me</p>
         </Link>
@@ -34,7 +34,7 @@ export default function Navbar() {
             width="70"
             height="50"
             layout=""
-            className="object-cover rounded-lg p-3 bg-neutral-300"
+            className="object-cover rounded-lg p-3 bg-neutral-300 hover:bg-neutral-100 border border-slate-500"
           />{" "}
           <p className="mt-2 text-xs flex justify-center">Projects</p>
         </Link>
@@ -45,7 +45,7 @@ export default function Navbar() {
             width="70"
             height="50"
             layout=""
-            className="object-cover rounded-lg p-3 bg-neutral-300"
+            className="object-cover rounded-lg p-3 bg-neutral-300 hover:bg-neutral-100 border border-slate-500"
           />{" "}
           <p className="mt-2 text-xs flex justify-center">Resume</p>
         </Link>
@@ -56,7 +56,7 @@ export default function Navbar() {
             width="70"
             height="50"
             layout=""
-            className="object-cover rounded-lg p-3 bg-neutral-300"
+            className="object-cover rounded-lg p-3 bg-neutral-300 hover:bg-neutral-100 border border-slate-500"
           />{" "}
           <p className="mt-2 text-xs flex justify-center">Contact</p>
         </Link> */}

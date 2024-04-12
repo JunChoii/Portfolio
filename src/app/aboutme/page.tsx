@@ -28,9 +28,11 @@ export default function AboutMe() {
         backgroundSize: "cover", // Ensure background image covers the entire area
       }}
     >
-      <div className="top w-4/5 md:flex-row items-center justify-center md:justify-start">
-        <h1 className="text-4xl font-bold text-white mb-2 md:mb-0">Jun Choi</h1>
-        <h1 className="text-lg text-white shadow-2xl shadow-slate-500 pb-40">
+      <div className="top w-4/5 md:flex-row items-center justify-center md:justify-start ">
+        <h1 className="text-lg text-white shadow-2xl shadow-slate-500 pb-40 p-4 bg-gray-900 rounded-lg opacity-95">
+          <h1 className="text-4xl font-bold text-white mb-2 md:mb-0">
+            Jun Choi
+          </h1>
           <br />
           I am passionate about programming and web development, I thrive on
           collaborating with others to create innovative solutions.

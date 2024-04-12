@@ -28,12 +28,12 @@ export default function Resume() {
         backgroundSize: "cover",
       }}
     >
-      <div className="bg-neutral-50 p-5 rounded-xl opacity-90">
+      <div className="text-white bg-gray-900 p-5 rounded-xl opacity-90">
         <div className="top w-4/5 md:flex-row items-center justify-center md:justify-start ">
           <header className="space-y-2">
             <div className="space-y-2">
               <h1 className="text-4xl font-bold  mb-2 md:mb-0">Jun Choi</h1>
-              <p className="text-gray-500 dark:text-gray-400">
+              <p className="text-gray-400 dark:text-gray-400">
                 Full Stack Web Developer
               </p>
             </div>
@@ -120,15 +120,16 @@ export default function Resume() {
                 </span>
               </div>
             </div>
+            <br />
           </header>
         </div>
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-5xl space-y-10">
             <div className="border-t border-b border-gray-200 dark:border-gray-800">
               <div className="grid min-h-[200px] items-center ">
-                <div className="space-y-2 text-sm">
+                <br /><div className="space-y-2 text-sm">
                   <h3 className="text-lg font-bold">Summary</h3>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <p className="text-gray-100 dark:text-gray-400">
                     Web developer with a passion for creating clean,
                     maintainable code. Skilled in full-stack web development,
                     particularly with React and Node.js. Strong problem-solving
@@ -137,44 +138,46 @@ export default function Resume() {
                     storage and retrieval in web applications.
                   </p>
                 </div>
+                <br />
                 <div className="space-y-2">
                   <h2 className="text-2xl font-semibold">Skills</h2>
                   <div className="flex flex-wrap gap-4">
-                    <div className="rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                    <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
                       JavaScript
                     </div>
-                    <div className="rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                    <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
                       React
                     </div>
-                    <div className="rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                    <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
                       Node.js
                     </div>
-                    <div className="rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                    <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
                       PHP
                     </div>
-                    <div className="rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                    <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
                       Laravel
                     </div>
-                    <div className="rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                    <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
                       TypeScript
                     </div>
-                    <div className="rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                    <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
                       ASP.NET
                     </div>
-                    <div className="rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                    <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
                       MySQL
                     </div>
-                    <div className="rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                    <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
                       PostgreSQL
                     </div>
-                    <div className="rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                    <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
                       AWS RDS
                     </div>
-                    <div className="rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                    <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
                       AWS Lambda
                     </div>
                   </div>
                 </div>
+                <br />
               </div>
             </div>
             <div className="space-y-4">
@@ -185,7 +188,7 @@ export default function Resume() {
                     <div className="grid gap-2">
                       <h3 className="text-xl font-semibold">WhiteStone</h3>
                       <p className="text-sm text-gray-500 dark:text-gray-400">
-                        <a href="" target="_blank">
+                        <a href="" className="text-pink-300" target="_blank">
                           View project
                         </a>
                       </p>
@@ -206,7 +209,7 @@ export default function Resume() {
                     <div className="grid gap-2">
                       <h3 className="text-xl font-semibold">Volterra</h3>
                       <p className="text-sm text-gray-500 dark:text-gray-400">
-                        <a href="" target="_blank">
+                        <a href="" className="text-pink-300" target="_blank">
                           View project
                         </a>
                       </p>
@@ -228,7 +231,7 @@ export default function Resume() {
                     <div className="grid gap-2">
                       <h3 className="text-xl font-semibold">FoodSnap</h3>
                       <p className="text-sm text-gray-500 dark:text-gray-400">
-                        <a href="" target="_blank">
+                        <a href="" className="text-pink-300" target="_blank">
                           View project
                         </a>
                       </p>
@@ -248,7 +251,7 @@ export default function Resume() {
                     <div className="grid gap-2">
                       <h3 className="text-xl font-semibold">Feedback</h3>
                       <p className="text-sm text-gray-500 dark:text-gray-400">
-                        <a href="" target="_blank">
+                        <a href="" className="text-pink-300" target="_blank">
                           View project
                         </a>
                       </p>
@@ -271,7 +274,7 @@ export default function Resume() {
                 </ul>
               </div>
               <hr />
-              <div className="space-y-2">
+              <div className="space-y-2 text-white">
                 <h2 className="text-2xl font-semibold">Education</h2>
                 <ul className="grid gap-4 list-none">
                   <li>
