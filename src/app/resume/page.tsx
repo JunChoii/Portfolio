@@ -245,7 +245,7 @@ export default function Resume() {
                           with a focus on remote battery monitoring dashboard.
                           Our system, FleetAccess RX, offers a holistic view of
                           battery metrics, while FitStar provides real-time
-                          insights for informed decision-making. We're dedicated
+                          insights for informed decision-making. We are dedicated
                           to making fleet management effortless, granting
                           unparalleled access to real-time battery health data,
                           empowering clients to optimize asset performance and
