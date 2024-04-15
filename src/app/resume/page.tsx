@@ -28,7 +28,7 @@ export default function Resume() {
         backgroundSize: "cover",
       }}
     >
-      <div className="text-white bg-gray-900 p-5 rounded-xl opacity-90">
+      <div className="text-white bg-gray-900 p-1 sm:p-1 w-4/5 rounded-xl opacity-85">
         <div className="top w-4/5 md:flex-row items-center justify-center md:justify-start ">
           <header className="space-y-2">
             <div className="space-y-2">
@@ -127,7 +127,8 @@ export default function Resume() {
           <div className="mx-auto max-w-5xl space-y-10">
             <div className="border-t border-b border-gray-200 dark:border-gray-800">
               <div className="grid min-h-[200px] items-center ">
-                <br /><div className="space-y-2 text-sm">
+                <br />
+                <div className="space-y-2 text-sm">
                   <h3 className="text-lg font-bold">Summary</h3>
                   <p className="text-gray-100 dark:text-gray-400">
                     Web developer with a passion for creating clean,
@@ -175,6 +176,9 @@ export default function Resume() {
                     <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
                       AWS Lambda
                     </div>
+                    <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                      AWS S3
+                    </div>
                   </div>
                 </div>
                 <br />
@@ -184,8 +188,9 @@ export default function Resume() {
               <div className="space-y-2">
                 <h2 className="text-4xl font-bold">Projects</h2>
                 <ul className="grid gap-4 list-none">
+                  {/* /////////////////////////////////////////////////////////////////// */}
                   <li>
-                    <div className="grid gap-2">
+                    <div className="grid gap-2 mt-10">
                       <h3 className="text-xl font-semibold">WhiteStone</h3>
                       <p className="text-sm text-gray-500 dark:text-gray-400">
                         <a href="" className="text-pink-300" target="_blank">
@@ -194,41 +199,21 @@ export default function Resume() {
                       </p>
                       {/* TODO: get this shit done with the actual description of the project */}
                       <ul className="list-disc list-inside">
-                        <li>
-                          Led the frontend architecture redesign, resulting in a
-                          30% improvement in page load times.
-                        </li>
-                        <li>
-                          Collaborated with the product team to implement new
-                          features and improve the user experience.
-                        </li>
+                        <p className="text-gray-400 text-sm">
+                          Next.js · MediaPipe · OpenAI GPT-4 Vision model
+                        </p>
+                        <p>
+                          WhiteStone is a machine learning dental scanning app
+                          for colorblind and low income people to help users
+                          evaluate their dental health to reduce the number of
+                          dental checkups by taking pictures of their mouths.
+                        </p>
                       </ul>
                     </div>
                   </li>
+                  {/* /////////////////////////////////////////////////////////////////// */}
                   <li>
-                    <div className="grid gap-2">
-                      <h3 className="text-xl font-semibold">Volterra</h3>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">
-                        <a href="" className="text-pink-300" target="_blank">
-                          View project
-                        </a>
-                      </p>
-                      {/* TODO: get this shit done with the actual description of the project */}
-
-                      <ul className="list-disc list-inside">
-                        <li>
-                          Led the frontend architecture redesign, resulting in a
-                          30% improvement in page load times.
-                        </li>
-                        <li>
-                          Collaborated with the product team to implement new
-                          features and improve the user experience.
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="grid gap-2">
+                    <div className="grid gap-2 mt-10">
                       <h3 className="text-xl font-semibold">FoodSnap</h3>
                       <p className="text-sm text-gray-500 dark:text-gray-400">
                         <a href="" className="text-pink-300" target="_blank">
@@ -236,19 +221,71 @@ export default function Resume() {
                         </a>
                       </p>
                       {/* TODO: get this shit done with the actual description of the project */}
-
                       <ul className="list-disc list-inside">
-                        <li>
-                          Led the frontend architecture redesign, resulting in a
-                          30% improvement in page load times.
-                        </li>
-                        <li>
-                          Collaborated with the product team to implement new
-                          features and improve the user experience.
-                        </li>
+                        <p className="text-gray-400 text-sm">
+                          React · Next.js · TypeScript · NeonDB · AWS S3
+                        </p>
+                        <p>
+                          FoodSnap is a platform where users can explore a
+                          variety of foods and recipes shared by others. They
+                          can upload images or videos of their own culinary
+                          creations along with the accompanying recipe,
+                          fostering a community of food enthusiasts who enjoy
+                          sharing and discovering new dishes. Think of it as a
+                          virtual recipe collection.
+                        </p>
                       </ul>
                     </div>
-                    <div className="grid gap-2">
+                  </li>
+                  {/* /////////////////////////////////////////////////////////////////// */}
+                  <li>
+                    <div className="grid gap-2 mt-10">
+                      <h3 className="text-xl font-semibold">Volterra</h3>
+                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                        <a href="" className="text-pink-300" target="_blank">
+                          View project
+                        </a>
+                      </p>
+                      {/* TODO: get this shit done with the actual description of the project */}
+                      <ul className="list-disc list-inside">
+                        <p className="text-gray-400 text-sm">
+                          React · MySQL · AWS Lambda · AWS RDS · SST · AWS TimeStream · AWS Cognito · AWS Amplify · AWS CloudFront
+                        </p>
+                        <p>
+                          WhiteStone is a machine learning dental scanning app
+                          for colorbpnd and low income people to help users
+                          evaluate their dental health to reduce the number of
+                          dental checkups by taking pictures of their mouths.
+                        </p>
+                      </ul>
+                    </div>
+                  </li>
+                  {/* /////////////////////////////////////////////////////////////////// */}
+                  <li>
+                    <div className="grid gap-2 mt-10">
+                      <h3 className="text-xl font-semibold">NumberClash</h3>
+                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                        <a href="" className="text-pink-300" target="_blank">
+                          View project
+                        </a>
+                      </p>
+                      {/* TODO: get this shit done with the actual description of the project */}
+                      <ul className="list-disc list-inside">
+                        <p className="text-gray-400 text-sm">
+                          Next.js · MediaPipe · OpenAI GPT-4 Vision model
+                        </p>
+                        <p>
+                          WhiteStone is a machine learning dental scanning app
+                          for colorbpnd and low income people to help users
+                          evaluate their dental health to reduce the number of
+                          dental checkups by taking pictures of their mouths.
+                        </p>
+                      </ul>
+                    </div>
+                  </li>
+                  {/* /////////////////////////////////////////////////////////////////// */}
+                  <li>
+                    <div className="grid gap-2 mt-10">
                       <h3 className="text-xl font-semibold">Feedback</h3>
                       <p className="text-sm text-gray-500 dark:text-gray-400">
                         <a href="" className="text-pink-300" target="_blank">
@@ -256,21 +293,45 @@ export default function Resume() {
                         </a>
                       </p>
                       {/* TODO: get this shit done with the actual description of the project */}
-
                       <ul className="list-disc list-inside">
-                        <li>
-                          Led the frontend architecture redesign, resulting in a
-                          30% improvement in page load times.
-                        </li>
-                        <li>
-                          Collaborated with the product team to implement new
-                          features and improve the user experience.
-                        </li>
+                        <p className="text-gray-400 text-sm">
+                          Next.js · MediaPipe · OpenAI GPT-4 Vision model
+                        </p>
+                        <p>
+                          WhiteStone is a machine learning dental scanning app
+                          for colorbpnd and low income people to help users
+                          evaluate their dental health to reduce the number of
+                          dental checkups by taking pictures of their mouths.
+                        </p>
                       </ul>
                     </div>
-                      {/* TODO: get tmore of my projects here*/}
-
                   </li>
+                  {/* /////////////////////////////////////////////////////////////////// */}
+                  <li>
+                    <div className="grid gap-2 mt-10">
+                      <h3 className="text-xl font-semibold">Coin Track</h3>
+                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                        <a href="" className="text-pink-300" target="_blank">
+                          View project
+                        </a>
+                      </p>
+                      {/* TODO: get this shit done with the actual description of the project */}
+                      <ul className="list-disc list-inside">
+                        <p className="text-gray-400 text-sm">
+                          Next.js · MediaPipe · OpenAI GPT-4 Vision model
+                        </p>
+                        <p>
+                          WhiteStone is a machine learning dental scanning app
+                          for colorbpnd and low income people to help users
+                          evaluate their dental health to reduce the number of
+                          dental checkups by taking pictures of their mouths.
+                        </p>
+                      </ul>
+                    </div>
+                  </li>
+                  {/* ///////////////////// */}
+
+                  {/* TODO: get tmore of my projects here*/}
                 </ul>
               </div>
               <hr />
@@ -278,13 +339,13 @@ export default function Resume() {
                 <h2 className="text-2xl font-semibold">Education</h2>
                 <ul className="grid gap-4 list-none">
                   <li>
-                    <div className="grid gap-2">
+                    <div className="grid gap-2 mt-10">
                       <h3 className="text-xl font-semibold">
                         British Columbia Institute of Technology
                       </h3>
                       <p className="text-sm text-gray-500 dark:text-gray-400">
-                        Full Stack Web Development · Vancouver, CA <br/>September
-                        2022 - May 2024
+                        Full Stack Web Development · Vancouver, CA <br />
+                        September 2022 - May 2024
                       </p>
                     </div>
                   </li>
