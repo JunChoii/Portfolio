@@ -42,31 +42,31 @@ export default function Projects() {
               on remote battery monitoring dashboard.
             </div>
             <div className="flex flex-wrap gap-4 mt-3">
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 Vite
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 AWS RDS
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 AWS Cognito
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 AWS Amplify
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 AWS CloudFront
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 AWS TimeStream
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 SST
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 MySQL
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 TypeScript
               </div>
             </div>
@@ -81,22 +81,22 @@ export default function Projects() {
               users to share their secret recipes with others.
             </div>
             <div className="flex flex-wrap gap-4 mt-3">
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 Next.js
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 React
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 Tailwind
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 TypeScript
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 NeonDB
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 AWS S3
               </div>
             </div>
@@ -112,16 +112,16 @@ export default function Projects() {
               enabling users to effortlessly monitor their expense amount.
             </div>
             <div className="flex flex-wrap gap-4 mt-3">
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 React
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 Tailwind
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 NeonDB
               </div>
-              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                 TypeScript
               </div>
             </div>
@@ -140,16 +140,16 @@ export default function Projects() {
                 pictures of their mouths.
               </div>
               <div className="flex flex-wrap gap-4 mt-3">
-                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                   React
                 </div>
-                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                   Next.js
                 </div>
-                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                   MediaPipe
                 </div>
-                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                   OpenAI GPT-4 Vision Model
                 </div>
               </div>
@@ -170,19 +170,19 @@ export default function Projects() {
                 Independently created a multiplayer card game with real-time capabilities using SignalR for communication, ASP.NET for backend operations, and React for the frontend.
               </div>
               <div className="flex flex-wrap gap-4 mt-3">
-                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                   SignalR
                 </div>
-                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                   React
                 </div>
-                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                   Tailwind
                 </div>
-                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                   MySQL
                 </div>
-                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950 dark:text-white">
                   TypeScript
                 </div>
               </div>
