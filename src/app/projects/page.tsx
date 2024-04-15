@@ -52,6 +52,15 @@ export default function Projects() {
                 AWS Cognito
               </div>
               <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                AWS Amplify
+              </div>
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                AWS CloudFront
+              </div>
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
+                AWS TimeStream
+              </div>
+              <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
                 SST
               </div>
               <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">
@@ -158,8 +167,7 @@ export default function Projects() {
 
             <div className="text-xs text-white">
               <div className="text-sm text-white mt-3">
-                Our team developed a fleet management web application with a
-                focus on remote battery monitoring dashboard.
+                Independently created a multiplayer card game with real-time capabilities using SignalR for communication, ASP.NET for backend operations, and React for the frontend.
               </div>
               <div className="flex flex-wrap gap-4 mt-3">
                 <div className="text-black rounded-lg border border-gray-200 px-3 py-1 text-sm bg-gray-50 dark:border-gray-800 dark:bg-gray-950">

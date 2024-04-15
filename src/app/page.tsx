@@ -44,6 +44,7 @@ export default function Home() {
             <div className="bg-slate-500 w-80 h-10 rounded-lg text-white flex items-center justify-center shadow shadow-white hover:bg-slate-600">
               Your feedback is appreciated!
             </div>
+            <div className="text-red-300 text-xs flex items-center justify-center mt-2">Link not ready yet</div>
           </a>
         </div>
         {/* <div className="flex items-center flex-grow justify-evenly p-10">

@@ -192,11 +192,7 @@ export default function Resume() {
                   <li>
                     <div className="grid gap-2 mt-10">
                       <h3 className="text-xl font-semibold">WhiteStone</h3>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">
-                        <a href="" className="text-pink-300" target="_blank">
-                          View project
-                        </a>
-                      </p>
+                      <p className="text-sm text-gray-500 dark:text-gray-400"></p>
                       {/* TODO: get this shit done with the actual description of the project */}
                       <ul className="list-disc list-inside">
                         <p className="text-gray-400 text-sm">
@@ -215,11 +211,7 @@ export default function Resume() {
                   <li>
                     <div className="grid gap-2 mt-10">
                       <h3 className="text-xl font-semibold">FoodSnap</h3>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">
-                        <a href="" className="text-pink-300" target="_blank">
-                          View project
-                        </a>
-                      </p>
+                      <p className="text-sm text-gray-500 dark:text-gray-400"></p>
                       {/* TODO: get this shit done with the actual description of the project */}
                       <ul className="list-disc list-inside">
                         <p className="text-gray-400 text-sm">
@@ -241,21 +233,23 @@ export default function Resume() {
                   <li>
                     <div className="grid gap-2 mt-10">
                       <h3 className="text-xl font-semibold">Volterra</h3>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">
-                        <a href="" className="text-pink-300" target="_blank">
-                          View project
-                        </a>
-                      </p>
-                      {/* TODO: get this shit done with the actual description of the project */}
+                      <p className="text-sm text-gray-500 dark:text-gray-400"></p>
                       <ul className="list-disc list-inside">
                         <p className="text-gray-400 text-sm">
-                          React · MySQL · AWS Lambda · AWS RDS · SST · AWS TimeStream · AWS Cognito · AWS Amplify · AWS CloudFront
+                          React · MySQL · AWS Lambda · AWS RDS · SST · AWS
+                          TimeStream · AWS Cognito · AWS Amplify · AWS
+                          CloudFront
                         </p>
                         <p>
-                          WhiteStone is a machine learning dental scanning app
-                          for colorbpnd and low income people to help users
-                          evaluate their dental health to reduce the number of
-                          dental checkups by taking pictures of their mouths.
+                          Our team developed a fleet management web application
+                          with a focus on remote battery monitoring dashboard.
+                          Our system, FleetAccess RX, offers a holistic view of
+                          battery metrics, while FitStar provides real-time
+                          insights for informed decision-making. We're dedicated
+                          to making fleet management effortless, granting
+                          unparalleled access to real-time battery health data,
+                          empowering clients to optimize asset performance and
+                          longevity.
                         </p>
                       </ul>
                     </div>
@@ -264,21 +258,20 @@ export default function Resume() {
                   <li>
                     <div className="grid gap-2 mt-10">
                       <h3 className="text-xl font-semibold">NumberClash</h3>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">
-                        <a href="" className="text-pink-300" target="_blank">
-                          View project
-                        </a>
-                      </p>
+                      <p className="text-sm text-gray-500 dark:text-gray-400"></p>
                       {/* TODO: get this shit done with the actual description of the project */}
                       <ul className="list-disc list-inside">
                         <p className="text-gray-400 text-sm">
-                          Next.js · MediaPipe · OpenAI GPT-4 Vision model
+                          ASP.NET · SignalR · React · Tailwind · MySQL ·
+                          TypeScript
                         </p>
                         <p>
-                          WhiteStone is a machine learning dental scanning app
-                          for colorbpnd and low income people to help users
-                          evaluate their dental health to reduce the number of
-                          dental checkups by taking pictures of their mouths.
+                          NumberClash is a multiplayer game where players engage
+                          in comparing their randomly assigned pairs of numbers,
+                          with the higher combination prevailing. It utilizes
+                          SignalR for the real-time communication, MySQL for the
+                          data management, React for frontend, and ASP.NET for
+                          backend technologies.
                         </p>
                       </ul>
                     </div>
@@ -287,21 +280,18 @@ export default function Resume() {
                   <li>
                     <div className="grid gap-2 mt-10">
                       <h3 className="text-xl font-semibold">Feedback</h3>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">
-                        <a href="" className="text-pink-300" target="_blank">
-                          View project
-                        </a>
-                      </p>
+                      <p className="text-sm text-gray-500 dark:text-gray-400"></p>
                       {/* TODO: get this shit done with the actual description of the project */}
                       <ul className="list-disc list-inside">
                         <p className="text-gray-400 text-sm">
-                          Next.js · MediaPipe · OpenAI GPT-4 Vision model
+                          PHP · Laravel · MySQL
                         </p>
                         <p>
-                          WhiteStone is a machine learning dental scanning app
-                          for colorbpnd and low income people to help users
-                          evaluate their dental health to reduce the number of
-                          dental checkups by taking pictures of their mouths.
+                          Feedback is a web platform designed to gather feedback
+                          from viewers who browse through the portfolio. It
+                          utilizes MySQL for database management, PHP for
+                          server-side scripting, and Laravel as the framework to
+                          streamline development and enhance functionality.
                         </p>
                       </ul>
                     </div>
@@ -310,21 +300,19 @@ export default function Resume() {
                   <li>
                     <div className="grid gap-2 mt-10">
                       <h3 className="text-xl font-semibold">Coin Track</h3>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">
-                        <a href="" className="text-pink-300" target="_blank">
-                          View project
-                        </a>
-                      </p>
+                      <p className="text-sm text-gray-500 dark:text-gray-400"></p>
                       {/* TODO: get this shit done with the actual description of the project */}
                       <ul className="list-disc list-inside">
                         <p className="text-gray-400 text-sm">
-                          Next.js · MediaPipe · OpenAI GPT-4 Vision model
+                          React · Tailwind · NeonDB · TypeScript
                         </p>
                         <p>
-                          WhiteStone is a machine learning dental scanning app
-                          for colorbpnd and low income people to help users
-                          evaluate their dental health to reduce the number of
-                          dental checkups by taking pictures of their mouths.
+                          Independently crafted an intuitive expense tracking
+                          application, empowering users to effortlessly monitor
+                          their spending. Leveraging React for dynamic user
+                          interfaces, Tailwind for streamlined styling, NeonDB
+                          for efficient data storage, and TypeScript for
+                          enhanced code quality and maintainability.
                         </p>
                       </ul>
                     </div>
