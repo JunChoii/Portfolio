@@ -35,10 +35,10 @@ export default function Home() {
             {/* <hr className="w-full border-1 border-white my-4 md:my-0" /> */}
           </div>
         </div>
-        <div className="flex justify-center mt-7">
+        {/* TODO: turn the link back on with the PHP */}
+        {/* <div className="flex justify-center mt-7">
           <a
             href="/"
-            // TODO: Add feedback site
             // target="_blank"
           >
             <div className="bg-slate-500 w-80 h-10 rounded-lg text-white flex items-center justify-center shadow shadow-white hover:bg-slate-600">
@@ -46,7 +46,9 @@ export default function Home() {
             </div>
             <div className="text-red-300 text-xs flex items-center justify-center mt-2">Link not ready yet</div>
           </a>
-        </div>
+        </div> */}
+            {/* TODO: ABOVE */}
+
         {/* <div className="flex items-center flex-grow justify-evenly p-10">
           <a href="http://www.linkedin.com/in/junchoiwebdev" target="_blank">
             <Image
